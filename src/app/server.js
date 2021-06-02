@@ -45,8 +45,8 @@ logger.debug('MESSAGE=' + process.env.MESSAGE);
 logger.debug('RENDER_PATH_PREFIX=' + process.env.RENDER_PATH_PREFIX);
 logger.debug('HANDLER_PATH_PREFIX=' + process.env.HANDLER_PATH_PREFIX);
 logger.debug('KUBERNETES_NAMESPACE=' + process.env.KUBERNETES_NAMESPACE);
-logger.debug('KUBERNETES_POD_NAME=' + process.env.KUBERNETES_POD_NAME);
-logger.debug('KUBERNETES_POD_NAME=' + process.env.KUBERNETES_POD_IP);
+#logger.debug('KUBERNETES_POD_NAME=' + process.env.KUBERNETES_POD_NAME);
+logger.debug('KUBERNETES_POD_IP=' + process.env.KUBERNETES_POD_IP);
 logger.debug('KUBERNETES_NODE_NAME=' + process.env.KUBERNETES_NODE_NAME);
 logger.debug('CONTAINER_IMAGE=' + process.env.CONTAINER_IMAGE);
 
